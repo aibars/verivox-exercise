@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verivox.Providers", "Verivo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verivox.API", "Verivox.API\Verivox.API.csproj", "{630E04D5-27E1-414B-BE36-A60F3408938E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verivox.API.Tests", "Verivox.API.Tests\Verivox.API.Tests.csproj", "{350BC685-CCB3-4C60-89C4-3B5B38DB734F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verivox.API.Tests", "Verivox.API.Tests\Verivox.API.Tests.csproj", "{350BC685-CCB3-4C60-89C4-3B5B38DB734F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verivox.Providers.Tests", "Verivox.Providers.Tests\Verivox.Providers.Tests.csproj", "{7455A664-B9C6-4FD6-B14E-143B073E5A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verivox.Logic.Tests", "Verivox.Logic.Tests\Verivox.Logic.Tests.csproj", "{D51B4E1E-5699-4E2E-AEE0-71CBF803ECF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{350BC685-CCB3-4C60-89C4-3B5B38DB734F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{350BC685-CCB3-4C60-89C4-3B5B38DB734F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{350BC685-CCB3-4C60-89C4-3B5B38DB734F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7455A664-B9C6-4FD6-B14E-143B073E5A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7455A664-B9C6-4FD6-B14E-143B073E5A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7455A664-B9C6-4FD6-B14E-143B073E5A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7455A664-B9C6-4FD6-B14E-143B073E5A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51B4E1E-5699-4E2E-AEE0-71CBF803ECF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51B4E1E-5699-4E2E-AEE0-71CBF803ECF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51B4E1E-5699-4E2E-AEE0-71CBF803ECF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51B4E1E-5699-4E2E-AEE0-71CBF803ECF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

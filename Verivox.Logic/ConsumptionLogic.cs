@@ -5,7 +5,7 @@ using Verivox.Domain.ApiModels.Response;
 using Verivox.Logic.Interface;
 using Verivox.Providers.Interface;
 
-namespace Verivox.Logic.Models
+namespace Verivox.Logic
 {
     public class ConsumptionLogic : IConsumptionLogic
     {
