@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Verivox.Domain\Verivox.Domain.csproj" />
+    <ProjectReference Include="..\Verivox.Logic\Verivox.Logic.csproj" />
+    <ProjectReference Include="..\Verivox.Providers\Verivox.Providers.csproj" />
+  </ItemGroup>
+
+
+</Project>
